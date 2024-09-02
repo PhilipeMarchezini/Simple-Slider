@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.currentImage{
+    display: block;
+    width:100vw;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+.currentImage:focus{
+    outline: none !important;
+}
+
+.currentImageNone{
+    display: none;
+}
+
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    
+}
+
+.arrowRight{
+    right:40px;
+}
+
+.arrowLeft{
+    left: 40px;
+}
+
+
+.button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    
+}
+
+
+.buttonActive{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lightslategray;
+}
+
+.wrapperButton{
+    gap: 20px;
+    position: absolute;
+    display: flex;
+    bottom: 50px;
+    left: 45%;
+}
